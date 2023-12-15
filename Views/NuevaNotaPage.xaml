@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenAshly3PMovil2.Views.NuevaNotaPage"
+             Title="Nueva Nota">
+    <VerticalStackLayout Padding="10" Spacing="10">
+        <Entry Placeholder="ID"
+               x:Name="IdEntry"/>
+        
+        <Entry Placeholder="Descripcion"
+               x:Name="DescripcionEntry"/>
+
+        <DatePicker x:Name="fechaInicioPicker"/>
+
+        <Button Text="Grabar Audio" 
+        x:Name="audio" />
+
+        <Button Text="Guardar" 
+        BackgroundColor="Aqua"
+        x:Name="B_Ver" 
+        Clicked="B_Ver_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
+    
